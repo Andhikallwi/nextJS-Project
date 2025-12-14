@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 e469ef6d8b7749ea670ecad1a84a215e30a34c81 andhikallw <yusufpratama591@gmail.com> 1765692884 +0700	commit (initial): Initial commit from Create Next App
+e469ef6d8b7749ea670ecad1a84a215e30a34c81 9e2247dbd0edb91c9d41c520fc38a5bc38eba68c andhikallw <yusufpratama591@gmail.com> 1765697597 +0700	commit: feat: Add initial Next.js dashboard application structure including layouts, pages, and UI components.
+9e2247dbd0edb91c9d41c520fc38a5bc38eba68c 9e2247dbd0edb91c9d41c520fc38a5bc38eba68c andhikallw <yusufpratama591@gmail.com> 1765715749 +0700	Branch: renamed refs/heads/master to refs/heads/main
