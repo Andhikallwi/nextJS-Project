@@ -21,7 +21,10 @@ async function seedUsers() {
       return sql`
         INSERT INTO users (id, name, email, password)
         VALUES (${user.id}, ${user.name}, ${user.email}, ${hashedPassword})
-        ON CONFLICT (id) DO NOTHING;
+        ON CONFLICT (id) DO UPDATE SET
+          name = ${user.name},
+          email = ${user.email},
+          password = ${hashedPassword};
       `;
     }),
   );
